@@ -1,0 +1,146 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c2d3b;
+    background-image: linear-gradient(180deg, #1c2d3b 0%, #000000 100%);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #fff;
+    width: 100%;
+
+}
+
+footer p {
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.menu_nav {
+
+    background-color: #1C2D3B;
+    color: #fff;
+    padding: 10px;
+    text-align: right; 
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    background-color: #1C2D3B;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+}
+
+
+    footer div {
+        margin-top: 20px; 
+    }
+
+    .section_space_type_1 {
+        background-color: #333;
+    }
+
+    .section_space_type_2 {
+        color: #fff;
+        padding: 10px;
+        background-color: #1C2D3B;
+    }
+
+    .home_header {
+        display: flex;
+        align-items: center; 
+    }
+
+    .home_header img {
+        margin-right: 20px; 
+    }
+
+    .navbar {
+
+        background-color: #1C2D3B;
+        padding: 1rem;
+
+    }
+
+.menu-item {
+    margin: 0.5em;
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.rodape {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.rodape-contato {
+    margin-left: 4rem;
+}
+
+.ativo {
+    background-color: #EA0044;
+    padding: 0.4em;
+    border-radius: 2rem;
+    font-weight: 700;
+}
+
+footer img {
+    width: 20%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar img {
+    width: 15%;
+}
+
+@media only screen and (max-width: 600px) {
+    .rodape-contato {
+        font-size: x-small;
+        margin-left: 2rem;
+        margin-top: 0px;
+    }
+    footer {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    a {
+        font-size: small;
+    }
+    .navbar img {
+        width: 25%;
+    }
+    .imginicio
+    {
+        display: none;
+    }
+}
+
+.foto
+{
+    width: 50px;
+    height: 50px;
+}
+.backg
+{
+    background-color: #1C2D3B;
+    padding: 16px 100% 19px 10px;
+}

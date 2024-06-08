@@ -1,0 +1,315 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c2d3b;
+    background-image: linear-gradient(180deg, #1c2d3b 0%, #000000 100%);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #fff;
+    width: 100%;
+
+}
+
+footer p {
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.menu_nav {
+
+    background-color: #1C2D3B;
+    color: #fff;
+    padding: 10px;
+    text-align: right; 
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    background-color: #1C2D3B;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+}
+
+
+    footer div {
+        margin-top: 20px; 
+    }
+
+    .section_space_type_1 {
+        background-color: #333;
+    }
+
+    .section_space_type_2 {
+        color: #fff;
+        padding: 10px;
+        background-color: #1C2D3B;
+    }
+
+    .home_header {
+        display: flex;
+        align-items: center; 
+    }
+
+    .home_header img {
+        margin-right: 20px; 
+    }
+
+    .navbar {
+
+        background-color: #1C2D3B;
+        padding: 1rem;
+
+    }
+
+.menu-item {
+    margin: 0.5em;
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.rodape {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.rodape-contato {
+    margin-left: 4rem;
+}
+
+.ativo {
+    background-color: #EA0044;
+    padding: 0.4em;
+    border-radius: 2rem;
+    font-weight: 700;
+}
+
+footer img {
+    width: 20%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar img {
+    width: 15%;
+}
+
+.container
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.dash
+{
+
+    margin-left: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 50%;
+}
+
+.dash h1
+{
+    text-align: center;
+}
+
+.dash h2
+{
+    background-color: rgb(217,217,217, 25%);
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    border-left: rgb(255, 0, 0) solid 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+#cursoselec
+{
+
+    border-left: black solid 5px;
+    padding: 4rem 1rem;
+
+}
+
+.dash-side
+{
+
+    margin-left: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 50%;
+}
+
+.dash-side h1
+{
+    text-align: center;
+}
+
+.dash-side h2
+{
+    background-color: rgb(217,217,217, 25%);
+    padding: 4.2rem 1rem;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+#aulao
+{
+    background-color: rgb(217,217,217, 25%);
+    padding: 5rem 1rem;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+.progress-container {
+    background-color: #f3f3f3;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 20px 0;
+    height: 30px;
+    width: 100%;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #4caf50;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+.progress
+{
+    background-color: rgb(217,217,217, 25%);
+}
+
+.tabela {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    th {
+        display: none;
+    }
+
+    tr {
+        margin-bottom: 10px;
+    }
+
+    td {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+
+    td::before {
+        content: attr(data-label);
+        flex-basis: 50%;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    td[data-label="Certificado"] {
+        justify-content: center;
+    }
+
+    #cert {
+        padding: 6px 12px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    #cert:hover {
+        background-color: #45a049;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .rodape-contato {
+        font-size: x-small;
+        margin-left: 2rem;
+        margin-top: 0px;
+    }
+    footer {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    a {
+        font-size: small;
+    }
+    .navbar img {
+        width: 25%;
+    }
+}
+@media (max-width: 800px) {
+    .dash, .dash-side {
+        width: 70%;
+        margin: 2rem auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .dash, .dash-side {
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    .dash h1, .dash-side h1 {
+        font-size: 1.2em;
+    }
+
+    .dash h2, .dash-side h2 {
+        font-size: 1em;
+    }
+    .navbar {
+        padding: 0;
+    }
+}

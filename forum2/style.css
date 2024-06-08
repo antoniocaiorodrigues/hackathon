@@ -1,0 +1,325 @@
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c2d3b;
+    background-image: linear-gradient(180deg, #1c2d3b 0%, #000000 100%);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #fff;
+    width: 100%;
+
+}
+
+footer p {
+        text-align: left; /* Alinha o texto à esquerda */
+}
+
+.menu_nav {
+    background-color: #1C2D3B;
+    color: #fff;
+    padding: 10px;
+    text-align: right; 
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header{
+    background-color: #1C2D3B;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+}
+
+
+    footer div {
+        margin-top: 20px; 
+    }
+
+    .section_space_type_1 {
+        background-color: #333;
+    }
+
+    .section_space_type_2 {
+        color: #fff;
+        padding: 10px;
+        background-color: #1C2D3B;
+    }
+
+    .home_header {
+        display: flex;
+        align-items: center; 
+    }
+
+    .home_header img {
+        margin-right: 20px; 
+    }
+
+    .navbar{
+        background-color: #1C2D3B;
+        padding: 1rem;
+    }
+
+.menu-item{
+    margin: 0.5em;
+    text-decoration: none;
+    color: white;
+}
+
+.footer{
+    margin-bottom: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.rodape{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-item img{
+    border-radius: 0px;
+}
+
+.rodape-contato {
+    margin-left: 4rem;
+}
+
+.ativo {
+    background-color: #EA0044;
+    padding: 0.4em;
+    border-radius: 2rem;
+    font-weight: 700;
+}
+
+.realizar-login{
+    background-color: #EA0044;
+    padding: 0.7em;
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    border-radius: 2rem;
+    font-weight: 700;
+    appearance: none;
+    margin-top: 3rem;
+    border: 0;
+    color: white;
+}
+
+.dash {
+    background-color: #EA0044;
+    padding: 0.7em;
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    border-radius: 2rem;
+    font-weight: 700;
+    appearance: none;
+    border: 0;
+    color: white;
+}
+
+footer img{
+    width: 20%;
+}
+
+.form-control{
+    border-radius: 5rem;
+}
+
+.login{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    color: white;
+}
+
+.login-text{
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.card{
+    padding: 2rem;
+    background-color: #1C2D3B;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.form input{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.login .card{
+    border-radius: 5rem;
+    padding-top: 3rem; 
+    padding-top: 3rem;
+}
+
+.navbar img{
+    width: 15%;
+}
+
+
+@media only screen and (max-width: 600px){
+    .rodape-contato{
+        font-size: x-small;
+        margin-left: 2rem;
+        margin-top: 0px;
+    }
+    .login .card{
+        margin: 20px;
+        border-radius: 3rem;
+    }
+    .login{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .realizar-login {
+        margin-top: 0px;
+    }
+    .login-text {
+        margin-bottom: 0px;
+    }
+    footer{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    a {
+        font-size: small;
+    }
+    .navbar img {
+        width: 25%;
+    }
+    .forum {
+        font-size: xx-small;
+    }
+
+}
+
+.FTitulo{
+    border-color: #000000;
+    color: white;
+    font-size:35px;
+    text-align: center;
+}
+.geral{
+    margin: 20px;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #EA0044;
+    color: white;
+    font-size: 22px;
+}
+.button{
+    margin-left: 50px;
+}
+.fundobranco{
+    color: #fff;
+    background-color: #000000;
+}
+.engbio{
+    margin: 10px;
+    margin-top: 6px;
+    padding: 10px;
+    background-color: #EA0044;
+    color: white;
+    font-size: 22px;
+}
+  
+
+    .container3{
+        justify-content: space-around;
+        display: flex;
+        margin: 0 0 0 ;
+        color: white; 
+        background-color: white;
+        border:#000000 solid;
+        padding-bottom: 240px;
+        margin-left: 50px;
+        margin-right: 50px;
+
+        margin-bottom: 250px;
+    
+        font-size: 20px;
+        border-radius: 15px;
+      }
+
+
+  .container2{
+    justify-content: space-around;
+    display: flex;
+    color: white; 
+    background-color: #1C2D3B;
+
+    font-size: 20px;
+    border-radius: 15px;
+  }
+  .cont{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white; 
+    background-color: #1C2D3B;
+    padding: 5px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+  }
+  
+
+  button{
+    padding: 0px 12px;
+    background-color:#D9D9D9; /* Cor de fundo do botão */
+   border-color: #BFB3B3;
+    color:black; /* Cor do texto do botão */
+    border: none; /* Remover a borda do botão */
+    border-radius: 25px; /* Borda arredondada do botão */
+    cursor: pointer; /* Alterar o cursor ao passar sobre o botão */
+  }
+
+  .forum {
+    display: flex;
+    align-items: center; /* Alinhar verticalmente */
+    justify-content: center; /* Alinhar horizontalmente */
+    font-size: 45px;
+  }
+  
+  .tituloENG {
+    font-size: 18px;
+    padding-right: 15px; /* Ajuste o espaçamento conforme necessário */
+    padding-left: 10px;
+    padding-top: 20px;
+    text-align: left;
+    color:#EA0044;
+
+}
+.botao{
+    padding: 2px 2px;
+    margin-left: 100px;
+    margin-right: 70px;
+    margin-top: 50px;
+    background-color:0;
+    margin-bottom: 8px;
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remover a borda do botão */
+    border-radius: 25px; /* Borda arredondada do botão */
+    cursor: pointer;
+    
+}
+  button:hover{
+    background-color:#1C2D3B;
+    color:#EA0044;
+  }  
+  

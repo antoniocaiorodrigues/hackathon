@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cursos-geral/cursos.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="div-a-alinhar">
+                <img src="home/bio.png" alt="Logo Biopark">
+            </div>
+            <div class="menu">
+                <a class="menu-item" href="forum.html">Fórum</a>
+                <a class="menu-item" href="sobre.html">Sobre</a>
+                <a class="menu-item ativo" href="cursos.html">Cursos</a>
+                <a class="menu-item" href="dashboard.html">DashBoard</a>
+            </div>
+        </nav>
+    </header>
+    <nav class="submenu">
+        <a class="menu-item" href="#farmacia">Fármacia</a>
+        <a class="menu-item" href="Bioprocessosgeral.html">Eng. Bioprocessos e Biotecnologia</a>
+        <a class="menu-item" href="#CD">Ciências de Dados</a>
+        <a class="menu-item" href="#Enfermagem">Téc. Enfermagem</a>
+        <a class="menu-item" href="#ADS">ADS</a>
+        <a class="menu-item" href="#Geral">Geral</a>
+    </nav>
+    <main>
+        <h3>Cursos em Alta</h3>
+        <div class="slider-container">
+            <ul class="slider">
+                <li>
+                    <input type="radio" id="slide1" name="slide" checked>
+                    <label for="slide1"></label>
+                    <img src="cursos-geral/01.png" alt="Slide 1"/>
+                </li>
+                <li>
+                    <input type="radio" id="slide2" name="slide">
+                    <label for="slide2"></label>
+                    <img src="cursos-geral/02.png" alt="Slide 2"/>
+                </li>
+                <li>
+                    <input type="radio" id="slide3" name="slide">
+                    <label for="slide3"></label>
+                    <img src="cursos-geral/03.png" alt="Slide 3"/>
+                </li>
+                <li>
+                    <input type="radio" id="slide4" name="slide">
+                    <label for="slide4"></label>
+                    <img src="cursos-geral/01.png" alt="Slide 4"/>
+                </li>
+                <li>
+                    <input type="radio" id="slide5" name="slide">
+                    <label for="slide5"></label>
+                    <img src="cursos-geral/02.png" alt="Slide 5"/>
+                </li>
+            </ul>
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+        
+        <section id="farmacia">
+            <h2>Fármacia</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <h3>Matemática Aplicada</h3>
+                    <p>Busca compreender e aplicar conceitos quantitativos em diversas áreas da prática farmacêutica</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Farmácia Magistral</h3>
+                    <p>Busca capacitar os estudantes de Farmácia para atuarem no segmento de manipulação de medicamentos.</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Microbiologia</h3>
+                    <p> Fornece aos estudantes de Farmácia compreensão aprofundada dos microrganismos relevantes para a prática farmacêutica. </p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Serviços farmacêuticos na área pública</h3>
+                    <p>Capacita os estudantes de Farmácia para atuarem na promoção da saúde e na prestação de serviços farmacêuticos à comunidade. </p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Parasitologia</h3>
+                    <p>Proporciona conhecimentos sobre os principais parasitas que afetam a saúde humana, suas características morfológicas, ciclo de vida, diagnóstico e tratamento. </p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Ciência dos alimentos</h3>
+                    <p>Fornece aos estudantes de Farmácia uma compreensão dos princípios da ciência dos alimentos e sua relação com a saúde humana. </p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Garantia da qualidade Farmacêutica</h3>
+                    <p>Capacita os estudantes de Farmácia para implementar sistemas de garantia da qualidade em empresas farmacêuticas. </p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Farmácia hospitalar</h3>
+                    <p>Capacita os estudantes de Farmácia para atuarem na gestão e assistência farmacêutica em ambientes hospitalares.</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Gestâo Farmacêutica</h3>
+                    <p>Tem como objetivo fornecer aos estudantes de Farmácia conhecimentos sobre gestão de negócios e administração de farmácias e drogarias. </p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Análises Toxicológicas</h3>
+                    <p>Capacita os estudantes de Farmácia para atuarem na identificação e quantificação de substâncias tóxicas em amostras biológicas.</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Produtos Biotecnológicos</h3>
+                    <p>Fornece aos estudantes de Farmácia uma compreensão abrangente sobre os princípios e aplicações da biotecnologia na indústria farmacêutica.</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Cosmetologia e estética minimamente invasiva</h3>
+                    <p>Prepara os estudantes de Farmácia para atuarem na área de cosmetologia, fornecendo conhecimentos sobre formulação, desenvolvimento e comercialização de produtos cosméticos.</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+            </div>
+        </section>
+        <section id="bio">
+            <h2><Eng. Bioprocessos e Biotecnologia></h2>
+            <div class="cards-container">
+                <div class="card">
+                    <h3>Análise de dados Aplicada</h3>
+                    <p>Capacita os participantes nos conceitos fundamentais de estatística básica, com uma abordagem prática voltada para a área de Biotecnologia e Bioprocessos</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Eletrotécnica e Automação Industrial</h3>
+                    <p>Capacita os participantes com os conhecimentos fundamentais em circuitos elétricos e sistemas de automação.</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Modelagem 2D e 3D</h3>
+                    <p>capacitar os participantes nos conceitos fundamentais de desenho técnico bidimensional (2D) e tridimensional (3D).</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Gestão da qualidade em processos</h3>
+                    <p>Capacita os participantes nos conceitos fundamentais de qualidade e gestão, com uma aplicação prática voltada para a indústria de Biotecnologia e Bioprocessos.</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Lean Manufacturing</h3>
+                    <p>Proporcionar uma formação básica na filosofia do Lean Manufacturing, aplicando seus conceitos e ferramentas aos processos industriais.</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Formação Yellow Belt Lean Six Sigma</h3>
+                    <p>Oportuniza uma formação específica no primeiro nível da metodologia Lean Six Sigma, direcionado para a área de Biotecnologia e Bioprocessos.</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Formação Green Lean Six Sigma</h3>
+                    <p>Oportuniza uma formação específica e aprofundada no segundo nível da metodologia Lean Six Sigma.</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Formação Black Belt Lean Six Sigma</h3>
+                    <p>Capacita os participantes a serem líderes de projetos complexos de melhoria, utilizando ferramentas avançadas para promover a excelência operacional, inovação e competitividade dos processos industriais e laboratoriais.</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+            </div>
+        </section>
+        <section id="CD">
+            <h2>Ciências de Dados</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <h3>Programação para Ciências de Dados</h3>
+                    <p>Visa desenvolver habilidades práticas e teóricas que permitam a manipulação, análise e visualização de dados, utilizando Python.</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Análise exploratória de dados</h3>
+                    <p>Desenvolve habilidades práticas para transformar dados brutos em insights valiosos, através de técnicas de visualização e exploração de dados.</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Introdução a Inteligência Artificial</h3>
+                    <p> Proporciona aos participantes uma base sólida para explorar e aplicar conceitos de IA em diversos contextos.</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Segurança de dados e ética.</h3>
+                    <p>Proporcionar uma compreensão profunda sobre a importância da proteção de dados e das questões éticas relacionadas ao seu uso. </p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Produção científica e seminários</h3>
+                    <p>Capacita os participantes nas habilidades essenciais para realizar pesquisas acadêmicas de alta qualidade e apresentar seus resultados de forma eficaz em seminários e conferências</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+            </div>
+        </section>
+        <section id="Enfermagem">
+            <h2>Téc. Enfermagem</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <h3>Biosegurança e processamento de artigos</h3>
+                    <p>Visa assegurar que os profissionais estejam preparados para manter um ambiente seguro e higiênico.</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Processo de trabalho em Saúde</h3>
+                    <p>Descrição do Card 2</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+            </div>
+        </section>
+        <section id="ADS">
+            <h2>Análise e Desenvolvimento de Sistemas</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <h3>Gestão de Pojetos e Métodos Ágeis</h3>
+                    <p>Capacita profissionais e estudantes da área de Análise e Desenvolvimento de Sistemas nos princípios e práticas da gestão de projetos, com ênfase em métodos ágeis.</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Desenvolvimento de Interface Gráfica</h3>
+                    <p>Proporciona conhecimentos teóricos e práticos necessários para criar interfaces de usuário (UI) intuitivas, acessíveis e visualmente atraentes, utilizando ferramentas e tecnologias modernas.
+                    </p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Abstração e modelagem de Dados</h3>
+                    <p>proporcionar uma compreensão profunda das técnicas de modelagem de dados, fundamentais para o design e implementação de bancos de dados eficientes e estruturados.</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Testes de Software</h3>
+                    <p>Capacita profissionais e estudantes da área de Análise e Desenvolvimento de Sistemas nos princípios e práticas de teste de software. </p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Gestão de versionamento e virtualização</h3>
+                    <p>Proporciona uma compreensão abrangente das ferramentas e técnicas necessárias para gerenciar versões de software de forma eficaz. </p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Desenvolvimento para Dispositivos Móveis I</h3>
+                    <p>proporciona uma compreensão abrangente das tecnologias, ferramentas e práticas necessárias para criar aplicativos móveis eficientes e responsivos.</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Desenvolvimento para Dispositivos Móveis II</h3>
+                    <p> Aprofunda os conhecimentos adquiridos no desenvolvimento de aplicativos para dispositivos móveis. </p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Planejamento de demanda para implantação de Software</h3>
+                    <p>Aborda estratégias e práticas para gerenciar eficientemente a demanda por novos sistemas e atualizações de software em organizações.</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Modelagem de processos de negócio e ideação de Software</h3>
+                    <p>Explora a integração entre a modelagem de processos de negócio e o desenvolvimento de software. </p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Direito Cibernético e Cibersegurança</h3>
+                    <p>Abordar as questões jurídicas e regulatórias relacionadas à segurança cibernética.</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+                <div class="card">
+                    <h3>Empreendedorismo, consultoria e inovação em TI</h3>
+                    <p>Capacita estudantes e profissionais da área de Tecnologia da Informação a compreenderem os fundamentos do empreendedorismo, da consultoria e da inovação no contexto da indústria de TI.</p>
+                    <button class="card-button">Saiba mais</button>
+                </div>
+            </div>
+
+        </section>
+        <section id="Geral">
+            <h2>Geral</h2>
+                <button class="card-button">Cursos Diversos</button>
+
+        </section>
+    </main>
+    <footer>
+        <div class="rodape">
+            <img src="home/bio.png" alt="Logo Biopark">
+            <div class="rodape-contato">
+                <p>Telefone: <strong>(45) 9 9147-6872</strong></p>
+                <p>Whatsapp: <strong>(45) 9 2036-3618</strong></p>
+                <p>E-mail: <strong>comercial@bpkedu.com.br</strong></p>
+            </div>
+        </div>
+    </footer>
+    <script src="cursos-geral/js/slider.js"></script>
+</body>
+</html>
